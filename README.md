@@ -1,6 +1,6 @@
 # UFC Scouting Project
 
-![image](
+![image](images/UFC_Project_Plots.png)
 
 
 ## Skills/Tools Used
