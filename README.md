@@ -25,11 +25,19 @@ Descriptive statistics, Comparative analysis, Correlation visualization, Trend v
 
 ### How to Get Started
 
-To replicate this code, you will need to download the CSV titled “ufc-master.csv” from the original Dataset on Kaggle (the link can be found at the bottom of this README file). You will then need to open any code editor that can run Python. Import Pandas, Matplotlib, Seaborn, and the CSV file you downloaded. The code written in the data analysis is dependent on the code written in the data wrangling, so run this section first.
+To replicate this code, you will need to:
+- Download the CSV titled “ufc-master.csv” from the original Dataset on Kaggle (the link can be found at the bottom of this README file).
+- Open any code editor that can run Python.
+- Import Pandas, Matplotlib, Seaborn, and the CSV file you downloaded.
+- The code written in the data analysis is dependent on the code written in the data wrangling, so run this section first.
 
 ### Dataset Information
 
 The dataset used in this repository is titled “Ultimate UFC Dataset” on Kaggle. It is based on all UFC fighter statistics from 2010 to 2024. The dataset includes over 3,000 UFC fighters, each with stats ranging from physical attributes (height, reach, etc.) to in-fight records (longest win streak, wins by submission, etc.). Data wrangling for this dataset requires the transformation of a per-fight index to a per-fighter index and involved the creation of a subset table called “superstars” for later comparisons.
+
+### Methodology
+
+Initial findings into the commonalities of superstars required the creation of a superstar subset. Since this subset is small (23 fighters), analysis rose from dispaying the dataframe, filtering relevant columns, and noticing patterns. These findings where then compared to the entire dataset using descriptive statistics and visualizations. Using industry knowledge and information from the comparisons, the factors which superstars shared where then placed as weighted inputs into a custom function titled the "Superstar Score". 
 
 ### Key Findings
 
