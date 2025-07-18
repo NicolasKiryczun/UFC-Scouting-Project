@@ -1,7 +1,7 @@
 # UFC Scouting Project
 
 
-![image](images/UFC_Project_Plots.png)
+![image](images/UFC_Project_Plots_revised.png)
 
 This repository aims at using Python to provide insights into common superstar traits, comparing these traits to the average fighter, and producing a “Superstar Calculator” which intakes a fighter’s stats and outputs a “Superstar Score” indicating their potential.
 
